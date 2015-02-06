@@ -1,8 +1,0 @@
-package com.dean.sparkscreen;
-
-import android.view.SurfaceHolder;
-import android.view.SurfaceView;
-
-public class SparkView extends SurfaceView implements SurfaceHolder.Callback{
-
-}

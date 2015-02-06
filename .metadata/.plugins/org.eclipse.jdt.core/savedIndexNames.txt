@@ -1,4 +1,0 @@
-INDEX VERSION 1.126+D:\GitHub\SparkScreen\.metadata\.plugins\org.eclipse.jdt.core
-3702436849.index
-273625583.index
-3829636155.index
