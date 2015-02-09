@@ -27,7 +27,7 @@ public class SparkPaint {
 	     */  
 		this.sparkPaint.setStyle(Paint.Style.FILL);
 		this.sparkPaint.setColor(Color.YELLOW);
-		this.sparkPaint.setMaskFilter(new BlurMaskFilter(15.0F,
+		this.sparkPaint.setMaskFilter(new BlurMaskFilter(5.0F,
 				BlurMaskFilter.Blur.NORMAL));
 	}
 
@@ -37,7 +37,7 @@ public class SparkPaint {
 	
 	public void drawSpark(Canvas canvas, float x, float y, int alpha) {
 		sparkPaint.setAlpha(alpha);
-		canvas.drawCircle(x, y, 30, sparkPaint);
+		canvas.drawCircle(x, y, 5, sparkPaint);
 	}
 	
 }

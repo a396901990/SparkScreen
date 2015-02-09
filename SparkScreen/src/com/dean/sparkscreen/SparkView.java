@@ -47,19 +47,19 @@ public class SparkView extends SurfaceView implements SurfaceHolder.Callback,
 
 				if (isPlus) {
 					alpha += 10;
-					X += 30;
-					Y += 30;
+					X += 3;
+					Y += 3;
 				} else {
 					alpha -= 10;
-					X -= 30;
-					Y -= 30;
+					X -= 3;
+					Y -= 3;
 				}
 
 				if (alpha > 0) {
 					Canvas canvas = mHolder.lockCanvas();// 获取画布
 
 					Paint p = new Paint();
-					canvas.drawColor(Color.BLACK);
+					canvas.drawColor(Color.TRANSPARENT, PorterDuff.Mode.CLEAR);
 					 //清屏
 //					 p.setXfermode(new PorterDuffXfermode(Mode.CLEAR));
 //					 canvas.drawPaint(p);
