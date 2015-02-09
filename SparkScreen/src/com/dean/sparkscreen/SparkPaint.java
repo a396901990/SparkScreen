@@ -35,4 +35,9 @@ public class SparkPaint {
 		canvas.drawCircle(x, y, 30, sparkPaint);
 	}
 	
+	public void drawSpark(Canvas canvas, float x, float y, int alpha) {
+		sparkPaint.setAlpha(alpha);
+		canvas.drawCircle(x, y, 30, sparkPaint);
+	}
+	
 }
