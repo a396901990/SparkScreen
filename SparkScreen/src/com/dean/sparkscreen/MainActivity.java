@@ -2,8 +2,10 @@ package com.dean.sparkscreen;
 
 import android.os.Bundle;
 import android.app.Activity;
-import android.view.Menu;
 
+/**
+ * @author Dean Guo
+ **/
 public class MainActivity extends Activity {
 
     @Override
