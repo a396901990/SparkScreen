@@ -145,6 +145,9 @@ public class SparkManager
      */
     private Point getRandomPoint( int baseX, int baseY, int r )
     {
+        if(r<=0){
+            r = 1 ;
+        }
         int x = mRandom.nextInt(r);
         int y = (int) Math.sqrt(r * r - x * x);
 
